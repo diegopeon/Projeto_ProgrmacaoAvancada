@@ -75,24 +75,6 @@ Para visualizar o build:
 npm run preview
 ```
 
-## Hospedagem no GitHub
-
-Para subir no GitHub:
-
-```bash
-git init
-git add .
-git commit -m "Entrega Nexus Arcade AngularJS e Vue Vite"
-git branch -M main
-git remote add origin URL_DO_REPOSITORIO
-git push -u origin main
-```
-
-## Observação sobre GitHub Pages
-
-- A pasta AngularJS pode ser hospedada diretamente como site estático.
-- A pasta Vue/Vite precisa primeiro gerar o build com `npm run build`.
-- Para GitHub Pages com Vite, pode ser necessário configurar `base` no `vite.config.js` caso o repositório não esteja na raiz de um domínio.
 
 ## Estrutura geral
 
